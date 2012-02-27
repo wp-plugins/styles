@@ -12,6 +12,8 @@ Change the appearance of supported themes using zero code. Creates appearance op
 
 == Description ==
 
+**Warning**: This plugin still experimental! Play with it now, but be aware that your settings will be lost when upgrading to version 0.5. You can still use the CSS output by this version of the plugin, found in /wp-content/uploads/styles, but you'll have to re-input values to change things in the next version. After that, the data structure will be stable.
+
 Styles allows you to edit the appearance of themes that don't provide an interface in the WordPress admin for doing so. It provides:
 
 * Background images
@@ -28,7 +30,7 @@ Here's a quick demo of how it works in TwentyEleven:
 
 [youtube http://www.youtube.com/watch?v=2gbRFFxx1GY]
 
-**Warning**: While we have spent a lot of time testing and using Styles, it is still experimental! We may add or remove features or change syntax in future updates. This plugin requires [PHP 5.2](https://codex.wordpress.org/Switching_to_PHP5), which is the minimum supported version as of WordPress 3.2.
+This plugin requires [PHP 5.2](https://codex.wordpress.org/Switching_to_PHP5), which is the minimum supported version as of WordPress 3.2.
 
 == Installation ==
 
