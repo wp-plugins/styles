@@ -6,13 +6,13 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: css, css3, scss, sass, scaffold, less, admin, gui, color picker, gradients, image upload, google fonts, user interface, twentyten, twentyeleven
 Requires at least: 3.1
 Tested up to: 3.3.1
-Stable tag: 0.4.1
+Stable tag: trunk
 
 Change the appearance of supported themes using zero code. Creates appearance options for images, colors, gradients, and fonts.
 
 == Description ==
 
-**Warning**: This plugin still experimental! Play with it now, but be aware that your settings will be lost when upgrading to version 0.5. You can still use the CSS output by this version of the plugin, found in /wp-content/uploads/styles, but you'll have to re-input values to change things in the next version. After that, the data structure will be stable.
+TwentyTen/TwentyEleven support will always be free. We plan to release support for multiple themes in as a paid add-on to Styles. You can [vote for support](https://www.google.com/moderator/?authuser=2#16/e=1f6d0a) of specific themes on [this page](https://www.google.com/moderator/?authuser=2#16/e=1f6d0a).
 
 Styles allows you to edit the appearance of themes that don't provide an interface in the WordPress admin for doing so. It provides:
 
