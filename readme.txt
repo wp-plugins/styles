@@ -5,15 +5,13 @@ Author URI: http://brainstormmedia.com
 Tags: css, stylesheet, styles, appearance, customize, customizer, colors, color picker, images, image upload, background, fonts, google fonts, user interface, twentyten, twentyeleven, twentytwelve, twentythirteen
 Requires at least: 3.4
 Tested up to: 3.5.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
-Be creative with colors and fonts. Styles changes everything.
+Be creative with colors and fonts in your theme. Styles changes everything.
 
 == Description ==
 
 WordPress has lots of beautiful themes, but personalizing a design can be difficult and time-intensive. Styles changes that. Styles gives you creative control in one consistent interface – the WordPress theme customizer. Styles lets you make your site your own. :)
-
-[Try a demo in TwentyTwelve](http://demo.stylesplugin.com/twentytwelve).
 
 **Features of the plugin include:**
 
@@ -31,10 +29,10 @@ Styles and options for all built-in WordPress themes are free. More themes are a
 
 **Free Themes include:**
 
-* TwentyTen: [Plugin](http://wordpress.org/extend/plugins/styles-twentyten), [Demo](http://demo.stylesplugin.com/twentyten)
-* TwentyEleven: [Plugin](http://wordpress.org/extend/plugins/styles-twentyeleven), [Demo](http://demo.stylesplugin.com/twentyeleven)
-* TwentyTwelve: [Plugin](http://wordpress.org/extend/plugins/styles-twentytwelve), [Demo](http://demo.stylesplugin.com/twentytwelve)
-* TwentyThirteen: [Plugin](http://wordpress.org/extend/plugins/styles-twentythirteen), [Demo](http://demo.stylesplugin.com/twentythirteen)
+* [TwentyTen](http://wordpress.org/extend/plugins/styles-twentyten)
+* [TwentyEleven](http://wordpress.org/extend/plugins/styles-twentyeleven)
+* [TwentyTwelve](http://wordpress.org/extend/plugins/styles-twentytwelve)
+* [TwentyThirteen](http://wordpress.org/extend/plugins/styles-twentythirteen)
 
 == Installation ==
 
@@ -69,6 +67,9 @@ Maybe! We have additional themes available available at [StylesPlugin.com](http:
 No! Styles is very careful about only loading what is needed to get its job done. Once you're done editing, stylesheets are cached and loaded for your sites users as quickly as possible.
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix: Google fonts loading correctly once saved.
 
 = 1.0.2 =
 * Fix: Remove front-end PHP notice. (Minor; Only matters if WP_DEBUG is enabled.)
@@ -117,6 +118,10 @@ No! Styles is very careful about only loading what is needed to get its job done
 
 == Upgrade Notice ==
 
+**1.0.3**
+* Fix: Google fonts loading correctly once saved.
+
+**1.0**
 Completely rewrote Styles to use the WordPress Customizer API. Whew! That was a lot of work, but will allow us to grow closely with WordPress going forward.
 
 Styles 1.0 does not import 0.5.2 settings. However, you can always [reinstall Styles 0.5.3](http://downloads.wordpress.org/plugin/styles.0.5.3.zip) to get your old settings back.
